@@ -1,0 +1,128 @@
+.App {
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 35%;
+}
+input {
+  padding: 10px;
+  border-radius: 9px;
+  appearance: none;
+  border: none;
+  background-color: #131a25;
+
+  color: white;
+  text-align: right;
+  font-weight: 700;
+}
+
+.calculator {
+  background-color: black;
+  width: 400px;
+  height: 570px;
+  border-radius: 40px;
+
+  overflow: hidden;
+  box-shadow: 0px 2px 64px rgba(0, 0, 0, 0.2);
+}
+.top {
+  padding: 15px;
+  margin: 20px;
+  text-align: right;
+  background-color: #131a26;
+  border: 1px solid white;
+  border-radius: 23px;
+  color: #eee;
+  font-size: 24px;
+  font-weight: 300;
+}
+.top span {
+  font-size: 14px;
+  color: white;
+}
+* {
+  color: black;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Fira Sans", sans-serif;
+}
+button {
+  width: 73px;
+  height: 75px;
+  left: 19px;
+  top: 347px;
+  font-size: 36px;
+  line-height: 44px;
+
+  appearance: none;
+  border: none;
+
+  color: #fff;
+  padding: 16px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: 0.4s;
+}
+button:hover {
+  opacity: 0.7;
+}
+.operators {
+  display: flex;
+  justify-content: space-evenly;
+}
+.operators button {
+  border-radius: 9px;
+  font-weight: 700;
+  margin-bottom: 9px;
+  background-color: #66ff7f;
+  font-size: 22px;
+}
+.digits {
+  display: flex;
+  flex-wrap: wrap;
+}
+.digits button {
+  flex: 123px;
+  max-width: 123px;
+  font-size: 25px;
+  font-weight: 600;
+  background-color: #131a26;
+}
+
+.digits button {
+  margin: 5px;
+  line-height: 44px;
+
+  border-radius: 9px;
+}
+.buttons {
+  background-color: #343434;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+}
+.equal {
+  background-color: #66ff7f;
+  color: black;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+}
+.numbers {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 44px;
+
+  color: #ffffff;
+  background: #343434;
+  border-radius: 9px;
+}
